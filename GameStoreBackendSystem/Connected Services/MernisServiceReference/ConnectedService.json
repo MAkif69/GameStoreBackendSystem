@@ -1,0 +1,30 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.40203.910",
+  "GettingStartedDocument": {
+    "Uri": "https://go.microsoft.com/fwlink/?linkid=858517"
+  },
+  "ExtendedData": {
+    "inputs": [
+      "https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, MernisServiceReference"
+    ],
+    "references": [
+      "Microsoft.Bcl.AsyncInterfaces, {Microsoft.Bcl.AsyncInterfaces, 1.1.0}",
+      "Newtonsoft.Json, {Newtonsoft.Json, 11.0.1}",
+      "Stripe.net, {Stripe.net, 39.35.0}",
+      "System.Configuration.ConfigurationManager, {System.Configuration.ConfigurationManager, 4.5.0}",
+      "System.Security.AccessControl, {System.Security.AccessControl, 4.5.0}",
+      "System.Security.Permissions, {System.Security.Permissions, 4.5.0}",
+      "System.Security.Principal.Windows, {System.Security.Principal.Windows, 4.5.0}"
+    ],
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}
